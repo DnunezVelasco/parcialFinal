@@ -1,8 +1,6 @@
 <nav class="bg-gray-800 border-gray-200">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="{{ route('public.index') }}" class="flex items-center">
-            <img src="{{ asset('img/logo_mo.png') }}" class="h-[45px]"
-                alt="FCECEP Logo" />
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Examen Final</span>
         </a>
         <button data-collapse-toggle="navbar-default" type="button"
