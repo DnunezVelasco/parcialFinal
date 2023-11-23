@@ -9,7 +9,7 @@
         {{ Aire::open()->route('carreras.store') }}
         <div class="grid grid-cols-3 gap-4">
             {{ Aire::input('nombre', 'Nombre')->addClass('mb-2 w-full') }}
-            {{ Aire::input('codigo', 'Código')->addClass('mb-2 w-full') }}
+            {{ Aire::input('descripcion', 'Descripción')->addClass('mb-2 w-full') }}
         </div>
         <div class="flex gap-4">
             <a href="{{ route('carreras.index') }}"
